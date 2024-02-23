@@ -1,0 +1,50 @@
+body {
+  background-color: #a74b24;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  float: left;
+  width: 33.3%;
+  padding-block: 1%;
+  text-align: center;
+  background-color: #772609
+}
+
+h1 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+table{
+  margin-left: 20%;
+  margin-top: 5%;
+  border: dotted 5px #073575;
+
+}
+td{
+  border: #073575 solid 1px;
+  text-align: center;
+}
+
+
+#footer{
+  background-color: #073575;
+  padding: 2%;
+  color:#dcdcdc;
+}

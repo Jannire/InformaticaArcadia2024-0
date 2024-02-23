@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="estilo.css">
-  <title>Arcadia - Ficción</title>
+  <link rel="stylesheet" href="contacto_css.css">
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3145/3145765.png">
+  <title>Arcadia - Contacto</title>
 </head>
 
 <body>
@@ -15,15 +16,61 @@
     <li id="dos"><a href="/Ficcion.html">Ficción</a></li>
     <li id="tres"><a href="/Contacto.html">Contacto</a></li>
   </ul>
-  <form>
-    <label for="fname">Nombres:</label><br>
-    <input type="text" id="fname" name="fname"> </input><br>
-    
-    <label for="fname">Apellidos:</label><br>
-    <input type="text" id="fname" name="fname"> </input><br>
+  <div id="pedido">
+    ¡Haz tu pedido especial de libros hoy mismo en Arcadia y descubre la magia de tener <br>
+    tus títulos favoritos al alcance de tu mano!
+  </div>
+  <div id="container">
+      <img
+        id="books"
+        src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+        width="700px">
+    <span>
+      <form width="100px">
+        <label for="fname">Nombres:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Nombre(s)"> </input><br>
+  
+        <label for="fname">Apellidos:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Apellidos"> </input><br>
+  
+        <label for="ftitulo">Titulo:</label><br>
+        <input type="text" id="ftitulo" name="ftitulo" placeholder="Titulo de tu libro pedido"> </input><br>
 
-    
-  </form>
+        <label for="synopsis">Sinopsis:</label><br>
+        <textarea id="fsynopsis" name="synopsis" rows="10" cols="50" placeholder="Aquí la descripcion de tu libro"></textarea><br>
+        
+        <label for="">Escoge el tipo de libro:</label><br>
+        <input type="radio" id="nofic" name="tipo" value="noficcion">
+        <label for="nofic">No ficción</label><br>
+        <input type="radio" id="css" name="tipo" value="ficcion">
+        <label for="css">Ficción</label><br>
+  
+        <label for="book">Escoge un género:</label>
+        <select id="book" name="book">
+          <option value="nfc">No ficcion</option>
+          <option value="fan">Fantasía</option>
+          <option value="rom">Romance</option>
+          <option value="dra">Drama</option>
+          <option value="inf">Infantil</option>
+          <option value="dis">Distopia</option>
+        </select> <br>
+        
+        <button class="fin" type="button" onclick="alert('Se ha enviado tu solicitud!')">Enviar!</button>
+        <input class="fin" type="reset" value="Borrar información">
+
+      </form>
+    </span>
+  </div>
+
+  <div id="footer">
+    <span style="margin-right: 70%;">
+      Librería Arcadia   
+    </span>
+    <span>
+      © 2024 Libreria Arcadia. Lima-Perú
+    </span>
+  </div>
 </body>
 
 </html>

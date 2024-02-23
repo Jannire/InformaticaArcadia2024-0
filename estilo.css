@@ -1,6 +1,8 @@
-body{
-  background-color: #9AB9FB;
+body {
+  background-color: #a74b24;
+  margin: 0;
 }
+
 ul {
   list-style: none;
   padding: 0;
@@ -12,10 +14,10 @@ li {
   width: 33.3%;
   padding-block: 1%;
   text-align: center;
-  background-color: rgb(112, 161, 204);
+  background-color: #772609
 }
 
-h1{
+h1 {
   display: block;
   margin: auto;
   text-align: center;
@@ -24,14 +26,9 @@ h1{
   text-decoration: none;
 }
 
-a{
-  text-decoration: none
-}
-
-td{
-  background-color: blue;
-  align-self: center;
-  align-content: center;
+a {
+  text-decoration: none;
+  color: #dcdcdc;
 }
 
 #main {
@@ -40,4 +37,64 @@ td{
   padding-top: 2%;
 }
 
+#logoHome {
+  margin-top: 7%;
+  margin-left: 10%;
+  display: flex;
+  margin-bottom: 40px;
+}
 
+.homeImg {
+  display: block;
+  height: 500px;
+  border-radius: 10%;
+}
+
+#slogan {
+  margin-top: 10%;
+  margin-right: 5%;
+  color: white;
+  font-size: 45px;
+}
+
+#aboutBot{
+  width: 30%;
+  height: 6%;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+#opiniones{
+  margin-inline: 15%;
+  color: #dcdcdc;
+}
+
+.opinion{
+  width: 200px;
+  height: 300px;
+  clip-path: circle(35% at 45% 50%);
+}
+
+#opinion1{
+  font-size: 20px;
+}
+
+#opinion2{
+  margin-left: 20%;
+  font-size: 20px;
+}
+
+#footer{
+  background-color: #073575;
+  padding: 2%;
+  color:#dcdcdc;
+  padding-right: 10px;
+}
+
+#refBot{
+  background-color: #073575;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
